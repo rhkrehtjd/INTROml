@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Machine Learning? | INTROml</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Machine Learning?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://rhkrehtjd.github.io/INTROml/2021/12/28/intro.html" />
+<meta property="og:url" content="https://rhkrehtjd.github.io/INTROml/2021/12/28/intro.html" />
+<meta property="og:site_name" content="INTROml" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-28T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Machine Learning?" />
+<script type="application/ld+json">
+{"url":"https://rhkrehtjd.github.io/INTROml/2021/12/28/intro.html","headline":"Machine Learning?","dateModified":"2021-12-28T00:00:00-06:00","datePublished":"2021-12-28T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://rhkrehtjd.github.io/INTROml/2021/12/28/intro.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/INTROml/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rhkrehtjd.github.io/INTROml/feed.xml" title="INTROml" /><link rel="shortcut icon" type="image/x-icon" href="/INTROml/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/INTROml/">INTROml</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/INTROml/about/">About Me</a><a class="page-link" href="/INTROml/search/">Search</a><a class="page-link" href="/INTROml/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Machine Learning?</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-12-28T00:00:00-06:00" itemprop="datePublished">
+        Dec 28, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/rhkrehtjd/INTROml/tree/master/_notebooks/2021-12-28-intro.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/INTROml/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/rhkrehtjd/INTROml/master?filepath=_notebooks%2F2021-12-28-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/rhkrehtjd/INTROml/blob/master/_notebooks/2021-12-28-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Frhkrehtjd%2FINTROml%2Fblob%2Fmaster%2F_notebooks%2F2021-12-28-intro.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/INTROml/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-12-28-intro.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#45936;&#51060;&#53552;&#50640;-&#47784;&#45944;&#51012;-&#47582;&#52632;&#45796;"><code>&#45936;&#51060;&#53552;&#50640; &#47784;&#45944;&#51012; &#47582;&#52632;&#45796;</code><a class="anchor-link" href="#&#45936;&#51060;&#53552;&#50640;-&#47784;&#45944;&#51012;-&#47582;&#52632;&#45796;"> </a></h3>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>애플리케이션을 수정하지 않고도 데이터를 기반으로 패턴을 학습하고 결과를 예측하는 알고리즘 기법을 통칭</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터 기반으로 통계적인 신뢰도를 강화하고 예측 오류를 최소화하기 위한 다양한 수학적 기법을 적용해 데이터 내의 패턴을 스스로 인지하고 신뢰도 있는 예측 결과를 도출</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터를 관통하는 패턴을 학습, 이에 기반한 예측 수행</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>모델을 맞춘다? 모델을 학습시키는 기법들에는 딥러닝, 나이브베이즈, 디시전트리 등이 있음, 모델을 맞추는 행위를 하지 않으면 이 모델은 어떤 문제도 해결할 수가 없음, 따라서 데이터를 모델에 맞추는 행위가 필요함</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>따라서 이 데이터에 문제를 최대한 많이 맞출 수 있도록 모델을 최적화하여야 하는데 이렇게 최적화가 된 모델이 그 데이터에 해당된 문제를 해결할 수 있게 됨</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>분류 :지도 학습(Supervised Learning), 비지도 학습(Un-supervised Learning), 강화 학습(Reinforcement Learning)
+지도학습 $\to$ 분류(Classification)와 회귀(Regression)로 나눌 수 있음</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>data? Garbage In $\to$ Garbage Out : data도 질이 중요하다</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터를 이해하고 효율적으로 가공,처리,추출하여 최적의 데이터를 기반으로 알고리즘을 구동할 수 있도록 준비하는 능력 필요</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>만약 온도, 습도, 풍속을 정리해놓은 데이터가 있을 때 눈이 오는 여부를 다양한 기법으로 해결할 수 있음</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>1) 조건을 정해서 해결한다.(decision tree 등)</p>
+<p>2) 수식(가중치)으로 해결한다.(선형 회귀, 딥러닝 등)</p>
+<p>이러한 접근 방식을 통해서 가지고 있는 데이터를 50%정도만 해결했다면 이 접근 방식들은 썩 좋지 않은 방식일 것임</p>
+<p>따라서 머신러닝을 학습한다는 것은 이 정답을 최대한 맞출 수 있도록 모델을 최대한 최적화한다는 의미임. 이렇게 가장 좋은 성능이 나올 수 있는 식과 조건을 찾아나가는 것을 기계가 스스로 하는 것을 머신러닝이라고 생각할 수도 있겠음.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>딥러닝 등 머신러닝 기법들 전반적으로 공부할 필요가 있다</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>딥러닝 : 자연어와 이미지 처리에 강하다. 그렇지만 다른 과업처리에 있어서도 항상 우수한 결과를 도출해내는 것은 아니다. 대표적으로 KAGGLE에 있는 TITANIC자료에서 실제로 산 승객과 죽은 승객을 처리해내는 과업을 수행할 땐 딥러닝보다 머신러닝의 모델이 더 좋은 결과를 도출해냈음</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#44208;&#44397;-&#47785;&#51201;&#51008;-&#45936;&#51060;&#53552;&#47484;-&#47784;&#45944;&#50640;-&#52572;&#51201;&#54868;-&#49884;&#53412;&#45716;-&#44163;&#51060;&#45796;"><code>&#44208;&#44397; &#47785;&#51201;&#51008; &#45936;&#51060;&#53552;&#47484; &#47784;&#45944;&#50640; &#52572;&#51201;&#54868; &#49884;&#53412;&#45716; &#44163;&#51060;&#45796;</code><a class="anchor-link" href="#&#44208;&#44397;-&#47785;&#51201;&#51008;-&#45936;&#51060;&#53552;&#47484;-&#47784;&#45944;&#50640;-&#52572;&#51201;&#54868;-&#49884;&#53412;&#45716;-&#44163;&#51060;&#45796;"> </a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>머신러닝 논문에 머신러닝 기법들간에 성능을 비교한 표도 있음. 즉, 머신러닝 기법들은 다양한 기법들이 있기 때문에 그 것들간의 차이점과, 각각의 알고리즘이 무엇을 최적화하려는 것인지의 관점에서 이해해보아야함</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#54028;&#51060;&#50028;-&#47672;&#49888;&#47084;&#45789;-&#49373;&#53468;&#44228;&#47484;-&#44396;&#49457;&#54616;&#45716;-&#51452;&#50836;-&#54056;&#53412;&#51648;"><code>&#54028;&#51060;&#50028; &#47672;&#49888;&#47084;&#45789; &#49373;&#53468;&#44228;&#47484; &#44396;&#49457;&#54616;&#45716; &#51452;&#50836; &#54056;&#53412;&#51648;</code><a class="anchor-link" href="#&#54028;&#51060;&#50028;-&#47672;&#49888;&#47084;&#45789;-&#49373;&#53468;&#44228;&#47484;-&#44396;&#49457;&#54616;&#45716;-&#51452;&#50836;-&#54056;&#53412;&#51648;"> </a></h3>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><p>머신러닝 패키지 : Scikit-Learn</p>
+</li>
+<li><p>행렬/ 선형대수/ 통계 패키지 : Numpy, SciPy</p>
+</li>
+<li><p>데이터 핸들링 : Pandas(Numpy는 행렬 기반의 데이터 처리에 특화) $\to$ 2차원 데이터 처리에 특화,Matplotlib</p>
+</li>
+<li><p>시각화 : matplotlib(너무 세분화 되어 있어서 익히기 어려움, 시각적인 면에서도 투박),Seaborn(matplotlib의 대안이 될 것)</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/INTROml/2021/12/28/intro.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/INTROml/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/INTROml/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/INTROml/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/rhkrehtjd" title="rhkrehtjd"><svg class="svg-icon grey"><use xlink:href="/INTROml/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
