@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>2022/01/02/SUN | INTROml</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="2022/01/02/SUN" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://rhkrehtjd.github.io/INTROml/2022/01/02/intro.html" />
+<meta property="og:url" content="https://rhkrehtjd.github.io/INTROml/2022/01/02/intro.html" />
+<meta property="og:site_name" content="INTROml" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-02T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="2022/01/02/SUN" />
+<script type="application/ld+json">
+{"url":"https://rhkrehtjd.github.io/INTROml/2022/01/02/intro.html","headline":"2022/01/02/SUN","dateModified":"2022-01-02T00:00:00-06:00","datePublished":"2022-01-02T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://rhkrehtjd.github.io/INTROml/2022/01/02/intro.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/INTROml/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rhkrehtjd.github.io/INTROml/feed.xml" title="INTROml" /><link rel="shortcut icon" type="image/x-icon" href="/INTROml/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/INTROml/">INTROml</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/INTROml/about/">About Me</a><a class="page-link" href="/INTROml/search/">Search</a><a class="page-link" href="/INTROml/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">2022/01/02/SUN</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-02T00:00:00-06:00" itemprop="datePublished">
+        Jan 2, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/rhkrehtjd/INTROml/tree/master/_notebooks/2022-01-02-intro.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/INTROml/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/rhkrehtjd/INTROml/master?filepath=_notebooks%2F2022-01-02-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/rhkrehtjd/INTROml/blob/master/_notebooks/2022-01-02-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Frhkrehtjd%2FINTROml%2Fblob%2Fmaster%2F_notebooks%2F2022-01-02-intro.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/INTROml/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-01-02-intro.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#45936;&#51060;&#53552;-&#51204;&#52376;&#47532;"><strong><em><code>&#45936;&#51060;&#53552; &#51204;&#52376;&#47532;</code></em></strong><a class="anchor-link" href="#&#45936;&#51060;&#53552;-&#51204;&#52376;&#47532;"> </a></h3>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터 인코딩
+<pre><code>- 레이블 인코딩 </code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">LabelEncoder</span>
+<span class="n">items</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;TV&#39;</span><span class="p">,</span><span class="s1">&#39;냉장고&#39;</span><span class="p">,</span><span class="s1">&#39;전자레인지&#39;</span><span class="p">,</span><span class="s1">&#39;컴퓨터&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">]</span>
+<span class="c1"># LabelEncoder를 객체로 생성한 후, fit()과 transform()으로 레이블 인코딩 수행</span>
+<span class="n">encoder</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span> <span class="c1"># 객체 생성</span>
+<span class="n">encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="n">labels</span><span class="o">=</span><span class="n">encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;인코딩 변환값: &#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;----------------------------------------&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;인코딩 클래스: &#39;</span><span class="p">,</span> <span class="n">encoder</span><span class="o">.</span><span class="n">classes_</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;차례대로 0부터 5까지 부여됨&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;----------------------------------------&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;디코딩 원본값: &#39;</span><span class="p">,</span><span class="n">encoder</span><span class="o">.</span><span class="n">inverse_transform</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;이렇게 원하는 인코딩 값의 리스트를 통해 디코딩 할 수 있다&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>인코딩 변환값:  [0 1 4 5 3 3 2 2]
+----------------------------------------
+인코딩 클래스:  [&#39;TV&#39; &#39;냉장고&#39; &#39;믹서&#39; &#39;선풍기&#39; &#39;전자레인지&#39; &#39;컴퓨터&#39;]
+차례대로 0부터 5까지 부여됨
+----------------------------------------
+디코딩 원본값:  [&#39;TV&#39; &#39;전자레인지&#39; &#39;컴퓨터&#39; &#39;컴퓨터&#39; &#39;냉장고&#39; &#39;냉장고&#39; &#39;믹서&#39; &#39;TV&#39;]
+이렇게 원하는 인코딩 값의 리스트를 통해 디코딩 할 수 있다
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>***주의***</code></p>
+<p>레이블 인코딩이 1,2일때 특정 ML알고리즘에서 가중치가 더 부여되거나 더 중요하게 인식할 가능성이 발생함. 하지만 단순 인코딩 숫자이기에 이러한 현상은 피해야함. 따라서 이러한 레이블 인코딩은 선형 회귀와 같은 ML 알고리즘에는 적용 X, 트리 계열의 알고리즘은 숫자의 이러한 특성을 반영하지 않으므로 레이블 인코딩도 별 문제 X, 원-핫 인코딩은 레이블 인코딩의 이러한 문제점을 해결하기 위한 인코딩 방식임</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터 인코딩
+<pre><code>- 원-핫 인코딩 </code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">OneHotEncoder</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">items</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;TV&#39;</span><span class="p">,</span><span class="s1">&#39;냉장고&#39;</span><span class="p">,</span><span class="s1">&#39;전자레인지&#39;</span><span class="p">,</span><span class="s1">&#39;컴퓨터&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">]</span>
+<span class="c1"># 먼저 숫자 값으로 변환하기 위해 LabelEncoder로 변환해야함</span>
+<span class="n">encoder</span><span class="o">=</span><span class="n">LabelEncoder</span><span class="p">()</span> <span class="c1"># 객체 생성</span>
+<span class="n">encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="n">labels</span><span class="o">=</span><span class="n">encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="c1"># 꼭 2차원 데이터로 변경해야 함</span>
+<span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1"># 이제 원-핫 인코딩</span>
+<span class="n">oh_encoder</span><span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">()</span> <span class="c1"># 객체 생성</span>
+<span class="n">oh_encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+<span class="n">oh_labels</span><span class="o">=</span><span class="n">oh_encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;원-핫 인코딩 데이터&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">oh_labels</span><span class="o">.</span><span class="n">toarray</span><span class="p">())</span> <span class="c1"># array 형태로</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;원-핫 인코딩 데이터 차원&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">oh_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> <span class="c1"># 8행 6열의 행렬 형태</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>원-핫 인코딩 데이터
+[[1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0. 0.]
+ [0. 0. 1. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0.]]
+원-핫 인코딩 데이터 차원
+(8, 6)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><strong><em><code>이러한 과정을 pandas를 통해 한 번에? = get_dummies</code></em></strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;item&#39;</span><span class="p">:[</span><span class="s1">&#39;TV&#39;</span><span class="p">,</span><span class="s1">&#39;냉장고&#39;</span><span class="p">,</span><span class="s1">&#39;전자레인지&#39;</span><span class="p">,</span><span class="s1">&#39;컴퓨터&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;선풍기&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">,</span><span class="s1">&#39;믹서&#39;</span><span class="p">]})</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>item_TV</th>
+      <th>item_냉장고</th>
+      <th>item_믹서</th>
+      <th>item_선풍기</th>
+      <th>item_전자레인지</th>
+      <th>item_컴퓨터</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>get_dummies()를 이용하면 숫자형 값으로 변환 없이도 바로 변환이 가능함</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="feature-&#49828;&#52992;&#51068;&#47553;&#44284;-&#51221;&#44508;&#54868;"><strong><em><code>feature &#49828;&#52992;&#51068;&#47553;&#44284; &#51221;&#44508;&#54868;</code></em></strong><a class="anchor-link" href="#feature-&#49828;&#52992;&#51068;&#47553;&#44284;-&#51221;&#44508;&#54868;"> </a></h3>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>feature scaling에는 표준화와 정규화가 있으며, 표준화는 feature각각이 평균0, 분산1인 가우시안 정규 분포를 가진 값으로 변환하는 것을 의미</p>
+<p>$x_i\_new$ = $\frac{x_i-mean(x)}{stdev(x)}$ 이며 $stdev(x)$는 표준편차를 의미함.</p>
+<p>일반적으로 정규화는 서로 다른 feature의 크기를 통일하기 위해 크기는 변환해주는 개념. 0~1값으로 변환한다. 즉 개별 데이터의 크기를 모두 똑같은 단위로 변경하는 것.</p>
+<p>$x_i\_new$ = $\frac{x_i-min(x)}{max(x)-min(x)}$</p>
+<p><strong><em>주의</em></strong></p>
+<p>사이킷런의 전처리에서 제공하는 Normalizer 모듈과 일반적인 정규화는 약간의 차이가 있음. 사이킷런의 Normalizer 모듈은 선형 대수에서의 정규화 개념이 적용 됐으며, 개별 벡터의 크기를 맞추기 위해 변환하는 것을 의미함.</p>
+<p>$x_i\_new$ = $\frac{x_i}{\sqrt(x_i^2+y_i^2+z_i^2)}$</p>
+<p>이를 벡터 정규화로 지칭하자</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><strong><em><code>StandardScaler</code> :표준화</em></strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">load_iris</span>
+<span class="n">iris</span><span class="o">=</span><span class="n">load_iris</span><span class="p">()</span>
+<span class="n">iris_data</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">data</span>
+<span class="n">iris_df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">iris_data</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;feature들의 평균값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">feature들의 분산값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df</span><span class="o">.</span><span class="n">var</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>feature들의 평균값
+sepal length (cm)    5.843333
+sepal width (cm)     3.057333
+petal length (cm)    3.758000
+petal width (cm)     1.199333
+dtype: float64
+
+feature들의 분산값
+sepal length (cm)    0.685694
+sepal width (cm)     0.189979
+petal length (cm)    3.116278
+petal width (cm)     0.581006
+dtype: float64
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+
+<span class="n">scaler</span><span class="o">=</span><span class="n">StandardScaler</span><span class="p">()</span> <span class="c1"># 객체 생성</span>
+<span class="n">scaler</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">iris_df</span><span class="p">)</span>
+<span class="n">iris_scaled</span><span class="o">=</span><span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">iris_df</span><span class="p">)</span>
+
+<span class="c1"># transform()시 스케일 변환된 데이터 세트가 ndarray로 반환돼 이를 DataFrame으로 변환</span>
+<span class="n">iris_df_scaled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">iris_scaled</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;feature들의 평균값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df_scaled</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">feature들의 분산값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df_scaled</span><span class="o">.</span><span class="n">var</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>feature들의 평균값
+sepal length (cm)   -1.690315e-15
+sepal width (cm)    -1.842970e-15
+petal length (cm)   -1.698641e-15
+petal width (cm)    -1.409243e-15
+dtype: float64
+
+feature들의 분산값
+sepal length (cm)    1.006711
+sepal width (cm)     1.006711
+petal length (cm)    1.006711
+petal width (cm)     1.006711
+dtype: float64
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>두 셀을 비교해보면 위 셀 $\to$ 아래 셀, 모든 칼럼 값의 평균이 0에 아주 가까운 값으로, 그리고 분산은 1에 아주 가까운 값으로 변환됐음을 알 수 있다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><strong><em><code>MinMaxScaler</code> :정규화</em></strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>데이터 값을 0과 1사이의 범위 값으로 변환한다. (음수 값이 있으면 -1에서 1값으로 변환)</li>
+<li>데이터의 분포가 가우시안 분포가 아닐 경우에 적용 가능</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">MinMaxScaler</span>
+<span class="n">scaler</span><span class="o">=</span><span class="n">MinMaxScaler</span><span class="p">()</span>
+<span class="n">scaler</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">iris_df</span><span class="p">)</span>
+<span class="n">iris_scaled</span><span class="o">=</span><span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">iris_df</span><span class="p">)</span>
+<span class="c1"># transform()시 스케일 변환된 데이터 세트가 ndarray로 반환돼 이를 DF으로 변환</span>
+<span class="n">iris_df_scaled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">iris_scaled</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;feature들의 최솟값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df_scaled</span><span class="o">.</span><span class="n">min</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">feature들의 최댓값&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iris_df_scaled</span><span class="o">.</span><span class="n">max</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>feature들의 최솟값
+sepal length (cm)    0.0
+sepal width (cm)     0.0
+petal length (cm)    0.0
+petal width (cm)     0.0
+dtype: float64
+
+feature들의 최댓값
+sepal length (cm)    1.0
+sepal width (cm)     1.0
+petal length (cm)    1.0
+petal width (cm)     1.0
+dtype: float64
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>모든 feature가 0에서 1사이의 값으로 변환되는 스케일링이 적용됐음을 알 수 있다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><em><code>유의점</code></em></strong> 128p 참고</p>
+<p>학습 데이터로 fit()이 적용된 스케일링 기준 정보를 그대로 테스트 데이터에 적용해야 하며, 그렇지 않으면 학습 데이터와 테스트 데이터의 스케일링 기준 정보가 서로 달라지기 때문에 올바른 예측 결과를 도출하지 못할 수 있다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>test_array에 Scale 변환을 할 때는 반드시 fit()을 호출하지 않고 transform()만으로 변환해야한다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>즉 가능하다면 전체 데이터의 스케일링 변환을 적용한 뒤 학습과 테스트 데이터로 분리하던가 이것이 여의치 않다면 테스트 데이터 변환 시에는 fit()이나 fit_transform()을 적용하지 않고 학습 데이터로 이미 fit()된 scaler 객체를 이용해 transform()으로 변환</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><em><code>131p 사이킷런으로 수행하는 타이타닉 생존자 예측, 꼭 한 번 실습해보기</code></em></strong></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/INTROml/2022/01/02/intro.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/INTROml/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/INTROml/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/INTROml/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/rhkrehtjd" target="_blank" title="rhkrehtjd"><svg class="svg-icon grey"><use xlink:href="/INTROml/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
