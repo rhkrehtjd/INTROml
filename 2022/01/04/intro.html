@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>2022/01/04/TUE | INTROml</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="2022/01/04/TUE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://rhkrehtjd.github.io/INTROml/2022/01/04/intro.html" />
+<meta property="og:url" content="https://rhkrehtjd.github.io/INTROml/2022/01/04/intro.html" />
+<meta property="og:site_name" content="INTROml" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-04T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="2022/01/04/TUE" />
+<script type="application/ld+json">
+{"url":"https://rhkrehtjd.github.io/INTROml/2022/01/04/intro.html","headline":"2022/01/04/TUE","dateModified":"2022-01-04T00:00:00-06:00","datePublished":"2022-01-04T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://rhkrehtjd.github.io/INTROml/2022/01/04/intro.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/INTROml/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rhkrehtjd.github.io/INTROml/feed.xml" title="INTROml" /><link rel="shortcut icon" type="image/x-icon" href="/INTROml/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/INTROml/">INTROml</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/INTROml/about/">About Me</a><a class="page-link" href="/INTROml/search/">Search</a><a class="page-link" href="/INTROml/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">2022/01/04/TUE</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-04T00:00:00-06:00" itemprop="datePublished">
+        Jan 4, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/rhkrehtjd/INTROml/tree/master/_notebooks/2022-01-04-intro.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/INTROml/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/rhkrehtjd/INTROml/master?filepath=_notebooks%2F2022-01-04-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/rhkrehtjd/INTROml/blob/master/_notebooks/2022-01-04-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Frhkrehtjd%2FINTROml%2Fblob%2Fmaster%2F_notebooks%2F2022-01-04-intro.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/INTROml/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-01-04-intro.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="F1-&#49828;&#53076;&#50612;"><strong><em><code>F1 &#49828;&#53076;&#50612;</code></em></strong><a class="anchor-link" href="#F1-&#49828;&#53076;&#50612;"> </a></h3>
+<pre><code> - 정밀도와 재현율이 어느 한 쪽으로 치우치지 않는 수치를 나타낼 때 상대적으로 높은 값을 가진다.</code></pre>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="$F1-=-2-*-\frac{precision---*---recall}{precision-+-recall}$">$F1 = 2 * \frac{precision   *   recall}{precision + recall}$<a class="anchor-link" href="#$F1-=-2-*-\frac{precision---*---recall}{precision-+-recall}$"> </a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="API-:-f1_score()">API : f1_score()<a class="anchor-link" href="#API-:-f1_score()"> </a></h5>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>(168~169p 코드 참고)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="ROC-&#44257;&#49440;&#44284;-AUC-&#49828;&#53076;&#50612;"><strong><em><code>ROC &#44257;&#49440;&#44284; AUC &#49828;&#53076;&#50612;</code></em></strong><a class="anchor-link" href="#ROC-&#44257;&#49440;&#44284;-AUC-&#49828;&#53076;&#50612;"> </a></h3>
+<pre><code>- 이진 분류의 예측 성능 측정에서 중요하게 사용됨</code></pre>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>ROC 곡선은 FPR을 0부터 1까지 변경하면서 TPR의 변화 값을 구함.  분류 결정 임계값을 변경하면 FPR을 0부터 1까지 변경할 수 있음. FPR을 0으로 만드려면 임계값을 1로 지정하면 된다.</p>
+<h5 id="API-:-roc_curve()">API : roc_curve()<a class="anchor-link" href="#API-:-roc_curve()"> </a></h5>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>171~172,174p 참고</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>일반적으로 ROC 곡선 자체는 FPR과 TPR의 변화값을 보는 데 이용하며 분류의 성능 지표로 사용되는 것을 ROC 곡선 면적에 기반한 AUC 값으로 결정한다. AUC가 1에 가까울수록 좋은 수치이다. AUC 수치가 커지려면 FPR이 작은 상태에서 얼마나 더 큰 TPR을 얻을 수 있느냐가 관건이다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#54588;&#47560;-&#51064;&#46356;&#50616;-&#45817;&#45544;&#48337;-&#50696;&#52769;"><strong><em><code>&#54588;&#47560; &#51064;&#46356;&#50616; &#45817;&#45544;&#48337; &#50696;&#52769;</code></em></strong><a class="anchor-link" href="#&#54588;&#47560;-&#51064;&#46356;&#50616;-&#45817;&#45544;&#48337;-&#50696;&#52769;"> </a></h3>
+</blockquote>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">precision_score</span><span class="p">,</span> <span class="n">recall_score</span><span class="p">,</span> <span class="n">roc_auc_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">precision_recall_curve</span><span class="p">,</span> <span class="n">roc_curve</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="n">diabetes_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;diabetes.csv&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">diabetes_data</span><span class="p">[</span><span class="s1">&#39;Outcome&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
+<span class="n">diabetes_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0    500
+1    268
+Name: Outcome, dtype: int64
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>148</td>
+      <td>72</td>
+      <td>35</td>
+      <td>0</td>
+      <td>33.6</td>
+      <td>0.627</td>
+      <td>50</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>85</td>
+      <td>66</td>
+      <td>29</td>
+      <td>0</td>
+      <td>26.6</td>
+      <td>0.351</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8</td>
+      <td>183</td>
+      <td>64</td>
+      <td>0</td>
+      <td>0</td>
+      <td>23.3</td>
+      <td>0.672</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Negative : 500, Positive : 268</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 768 entries, 0 to 767
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               768 non-null    int64  
+ 1   Glucose                   768 non-null    int64  
+ 2   BloodPressure             768 non-null    int64  
+ 3   SkinThickness             768 non-null    int64  
+ 4   Insulin                   768 non-null    int64  
+ 5   BMI                       768 non-null    float64
+ 6   DiabetesPedigreeFunction  768 non-null    float64
+ 7   Age                       768 non-null    int64  
+ 8   Outcome                   768 non-null    int64  
+dtypes: float64(2), int64(7)
+memory usage: 54.1 KB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>null값 없고, feature타입은 모두 숫자형</li>
+<li>따라서 별도의 feature incoding은 불필요</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#47196;&#51648;&#49828;&#54001;-&#54924;&#44480;&#47484;-&#51060;&#50857;&#54644;-&#50696;&#52769;-&#47784;&#45944;&#51012;-&#49373;&#49457;&#54644;&#48372;&#51088;"><strong><em><code>&#47196;&#51648;&#49828;&#54001; &#54924;&#44480;&#47484; &#51060;&#50857;&#54644; &#50696;&#52769; &#47784;&#45944;&#51012; &#49373;&#49457;&#54644;&#48372;&#51088;</code></em></strong><a class="anchor-link" href="#&#47196;&#51648;&#49828;&#54001;-&#54924;&#44480;&#47484;-&#51060;&#50857;&#54644;-&#50696;&#52769;-&#47784;&#45944;&#51012;-&#49373;&#49457;&#54644;&#48372;&#51088;"> </a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># feature 데이터 세트 X, 레이블 데이터 세트 y를 추출</span>
+<span class="c1"># 맨 끝이 Outcome 칼럼으로서 레이블 값임. 따라서 그 칼럼의 위치인 -1을 이용해 빼줌</span>
+<span class="n">X</span><span class="o">=</span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># feature 데이터 세트</span>
+<span class="n">y</span><span class="o">=</span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># 레이블 데이터 세트</span>
+
+<span class="n">X_train</span><span class="p">,</span><span class="n">X_test</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_test</span><span class="o">=</span><span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span><span class="n">random_state</span> <span class="o">=</span> <span class="mi">156</span><span class="p">,</span> <span class="n">stratify</span><span class="o">=</span><span class="n">y</span><span class="p">)</span>
+
+<span class="c1"># 로지스틱 회귀로 학습, 예측 및 평가</span>
+<span class="n">lr_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">()</span>
+<span class="n">lr_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">pred_proba</span><span class="o">=</span><span class="n">lr_clf</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">get_clf_eval</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred</span><span class="p">,</span> <span class="n">pred_proba</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>재현율 : 59.26%, 전체 데이터의 65%가Negative이므로 정확도보다는 재현율 성능에 조금 더 초점을 맞추기 위해 임곗값별 정밀도와 재현율 값의 변화를 확인해보자</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="n">pred_proba_c1</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">precision_recall_curve_plot</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">pred_proba_c1</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>임계값 0.42 정도에서 정밀도와 재현율이 어느 정도 균형을 맞춤. 그렇지만 두 지표 모두 0.7이 안 되는 수치로서 아직도 낮은 지표 값임. 임계값을 임의적으로 조정하기 전에 데이터값을 다시 보자</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3.845052</td>
+      <td>120.894531</td>
+      <td>69.105469</td>
+      <td>20.536458</td>
+      <td>79.799479</td>
+      <td>31.992578</td>
+      <td>0.471876</td>
+      <td>33.240885</td>
+      <td>0.348958</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>3.369578</td>
+      <td>31.972618</td>
+      <td>19.355807</td>
+      <td>15.952218</td>
+      <td>115.244002</td>
+      <td>7.884160</td>
+      <td>0.331329</td>
+      <td>11.760232</td>
+      <td>0.476951</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.078000</td>
+      <td>21.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>1.000000</td>
+      <td>99.000000</td>
+      <td>62.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>27.300000</td>
+      <td>0.243750</td>
+      <td>24.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>3.000000</td>
+      <td>117.000000</td>
+      <td>72.000000</td>
+      <td>23.000000</td>
+      <td>30.500000</td>
+      <td>32.000000</td>
+      <td>0.372500</td>
+      <td>29.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>6.000000</td>
+      <td>140.250000</td>
+      <td>80.000000</td>
+      <td>32.000000</td>
+      <td>127.250000</td>
+      <td>36.600000</td>
+      <td>0.626250</td>
+      <td>41.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>17.000000</td>
+      <td>199.000000</td>
+      <td>122.000000</td>
+      <td>99.000000</td>
+      <td>846.000000</td>
+      <td>67.100000</td>
+      <td>2.420000</td>
+      <td>81.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>min행이 0이 굉장히 많음. 예를 들어 Glucose는 포도당 수치인데 0인 것은 말이 안 됨.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">diabetes_data</span><span class="p">[</span><span class="s1">&#39;Glucose&#39;</span><span class="p">],</span><span class="n">bins</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(array([  5.,   0.,   4.,  32., 156., 211., 163.,  95.,  56.,  46.]),
+ array([  0. ,  19.9,  39.8,  59.7,  79.6,  99.5, 119.4, 139.3, 159.2,
+        179.1, 199. ]),
+ &lt;BarContainer object of 10 artists&gt;)</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>0 값이 일정 수준 존재함을 알 수 있다.</p>
+<p>min() 값이 0으로 돼 있는 feature에 대해 0 값의 건수 및 전체 데이터 건수 대비 및 몇 퍼센트의 비율로 존재하는지 확인해보자.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">zero_features</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Glucose&#39;</span><span class="p">,</span><span class="s1">&#39;BloodPressure&#39;</span><span class="p">,</span><span class="s1">&#39;SkinThickness&#39;</span><span class="p">,</span><span class="s1">&#39;Insulin&#39;</span><span class="p">,</span><span class="s1">&#39;BMI&#39;</span><span class="p">]</span>
+
+<span class="c1"># 전체 데이터 건수</span>
+<span class="n">total_count</span><span class="o">=</span><span class="n">diabetes_data</span><span class="p">[</span><span class="s1">&#39;Glucose&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+
+<span class="c1">#feature별로 반복하면서 데이터 값이 0인 데이터 건수를 추출하고, 퍼센트 계산해보자</span>
+<span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">zero_features</span><span class="p">:</span>
+    <span class="n">zero_count</span> <span class="o">=</span> <span class="n">diabetes_data</span><span class="p">[</span><span class="n">diabetes_data</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span><span class="o">==</span><span class="mi">0</span><span class="p">][</span><span class="n">feature</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> 0건수는 </span><span class="si">{}</span><span class="s1">, 퍼센트는 </span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">feature</span><span class="p">,</span> <span class="n">zero_count</span><span class="p">,</span> <span class="mi">100</span><span class="o">*</span><span class="n">zero_count</span><span class="o">/</span><span class="n">total_count</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Glucose 0건수는 5, 퍼센트는 0.65%
+BloodPressure 0건수는 35, 퍼센트는 4.56%
+SkinThickness 0건수는 227, 퍼센트는 29.56%
+Insulin 0건수는 374, 퍼센트는 48.70%
+BMI 0건수는 11, 퍼센트는 1.43%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>SkimThickness와 Insulin의 0 값은 각각 전체의 약 30,50%로 대단히 많다. 전체 데이터 건수가 약 800개 이므로 많지 않음, 따라서 0 데이터를 일괄적으로 삭제할 경우에는 학습을 효과적으로 수행하기 어렵다. 따라서 위 feature의 0값을 평균으로 대체해보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_zero_features</span> <span class="o">=</span> <span class="n">diabetes_data</span><span class="p">[</span><span class="n">zero_features</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">diabetes_data</span><span class="p">[</span><span class="n">zero_features</span><span class="p">]</span><span class="o">=</span><span class="n">diabetes_data</span><span class="p">[</span><span class="n">zero_features</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">mean_zero_features</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>로지스틱 회귀의 경우 일반적으로 숫자 데이터에 스케일링을 적용하는 것이 좋음. 따라서 0값을 평균값으로 대체한 데이터 세트에 feature 스케일링을 적용해 변환해보자</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="n">X</span><span class="o">=</span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">y</span><span class="o">=</span><span class="n">diabetes_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># StandardScaler 클래스를 이용해 feature 데이터 세트에 일괄적으로 스케일링 적용</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<span class="n">X_scaled</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+
+<span class="n">X_train</span><span class="p">,</span><span class="n">X_test</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_scaled</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">156</span><span class="p">,</span><span class="n">stratify</span><span class="o">=</span><span class="n">y</span><span class="p">)</span>
+
+<span class="c1"># 로지스틱 회귀로 학습, 예측 및 평가 수행</span>
+<span class="n">lr_clf</span><span class="o">=</span><span class="n">LogisticRegression</span><span class="p">()</span>
+<span class="n">lr_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">pred_proba</span><span class="o">=</span><span class="n">lr_clf</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">get_clf_eval</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">pred</span><span class="p">,</span><span class="n">pred_proba</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>데이터 변환과 스케일링을 통해 성능 수치가 일정 수준 개선됐지만 재현율 수치는 아직 개선이 더 필요, 분류  결정 임계값을 0.3에서 0.5까지 0.03씩 변화시키면서 재현율과 다른 평가 지표의 값 변화를 출력해보자</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="n">thresholds</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.33</span><span class="p">,</span><span class="mf">0.36</span><span class="p">,</span><span class="mf">0.39</span><span class="p">,</span><span class="mf">0.42</span><span class="p">,</span><span class="mf">0.45</span><span class="p">,</span><span class="mf">0.5</span><span class="p">]</span>
+<span class="n">pred_proba</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">get_eval_by_threshold</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_proba</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">thresholds</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>값을 반환했을 때 정확도와 정밀도를 어느 정도 희생하고 재현율을 높이는 데 가장 좋은 임계값은 0.33으로 재현율 값이 0.7963이다. 하지만 정밀도가 매우 저조해져서 극단적 선택임. 임계값 0.48이 전체적인 성능 평가 지표를 유지하면서 재현율을 약간 향상시키는 좋은 임계값으로 보임.</p>
+<p>181p 코드 참고</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h4 id="&#51648;&#44552;&#44620;&#51648;-&#48516;&#47448;&#50640;-&#49324;&#50857;&#46104;&#45716;-&#51221;&#54869;&#46020;,-&#50724;&#52264;-&#54665;&#47148;,-&#51221;&#48128;&#46020;,-&#51116;&#54788;&#50984;,-F1-&#49828;&#53076;&#50612;,-ROC-AUC&#50752;-&#44057;&#51008;-&#49457;&#45733;-&#54217;&#44032;-&#51648;&#54364;&#44032;-&#51080;&#50632;&#51020;.">&#51648;&#44552;&#44620;&#51648; &#48516;&#47448;&#50640; &#49324;&#50857;&#46104;&#45716; &#51221;&#54869;&#46020;, &#50724;&#52264; &#54665;&#47148;, &#51221;&#48128;&#46020;, &#51116;&#54788;&#50984;, F1 &#49828;&#53076;&#50612;, ROC-AUC&#50752; &#44057;&#51008; &#49457;&#45733; &#54217;&#44032; &#51648;&#54364;&#44032; &#51080;&#50632;&#51020;.<a class="anchor-link" href="#&#51648;&#44552;&#44620;&#51648;-&#48516;&#47448;&#50640;-&#49324;&#50857;&#46104;&#45716;-&#51221;&#54869;&#46020;,-&#50724;&#52264;-&#54665;&#47148;,-&#51221;&#48128;&#46020;,-&#51116;&#54788;&#50984;,-F1-&#49828;&#53076;&#50612;,-ROC-AUC&#50752;-&#44057;&#51008;-&#49457;&#45733;-&#54217;&#44032;-&#51648;&#54364;&#44032;-&#51080;&#50632;&#51020;."> </a></h4>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/INTROml/2022/01/04/intro.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/INTROml/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/INTROml/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/INTROml/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/rhkrehtjd" target="_blank" title="rhkrehtjd"><svg class="svg-icon grey"><use xlink:href="/INTROml/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
