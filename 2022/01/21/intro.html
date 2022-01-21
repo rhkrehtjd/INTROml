@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>2022/01/21/FRI | INTROml</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="2022/01/21/FRI" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://rhkrehtjd.github.io/INTROml/2022/01/21/intro.html" />
+<meta property="og:url" content="https://rhkrehtjd.github.io/INTROml/2022/01/21/intro.html" />
+<meta property="og:site_name" content="INTROml" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-21T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="2022/01/21/FRI" />
+<script type="application/ld+json">
+{"url":"https://rhkrehtjd.github.io/INTROml/2022/01/21/intro.html","@type":"BlogPosting","headline":"2022/01/21/FRI","dateModified":"2022-01-21T00:00:00-06:00","datePublished":"2022-01-21T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://rhkrehtjd.github.io/INTROml/2022/01/21/intro.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/INTROml/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rhkrehtjd.github.io/INTROml/feed.xml" title="INTROml" /><link rel="shortcut icon" type="image/x-icon" href="/INTROml/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/INTROml/">INTROml</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/INTROml/about/">About Me</a><a class="page-link" href="/INTROml/search/">Search</a><a class="page-link" href="/INTROml/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">2022/01/21/FRI</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-21T00:00:00-06:00" itemprop="datePublished">
+        Jan 21, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      20 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/rhkrehtjd/INTROml/tree/master/_notebooks/2022-01-21-intro.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/INTROml/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/rhkrehtjd/INTROml/master?filepath=_notebooks%2F2022-01-21-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/rhkrehtjd/INTROml/blob/master/_notebooks/2022-01-21-intro.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/INTROml/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Frhkrehtjd%2FINTROml%2Fblob%2Fmaster%2F_notebooks%2F2022-01-21-intro.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/INTROml/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-01-21-intro.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#53581;&#49828;&#53944;-&#48516;&#47448;-&#49892;&#49845;">&#53581;&#49828;&#53944; &#48516;&#47448; &#49892;&#49845;<a class="anchor-link" href="#&#53581;&#49828;&#53944;-&#48516;&#47448;-&#49892;&#49845;"> </a></h3><p>사이킷런이 내부에 가지고 있는 예제 데이터인 20 뉴스그룹 데이터 세트를 이용해 텍스트 분류를 적용해 보자. 텍스트 분류는 특정 문서의 분류를 학습 데이터를 통해 학습해 모델을 생성한 뒤 이 학습 모델을 이용해 다른 문서의 분류를 예측하는 것이다. 텍스트를 feature 벡터화로 변환하면 일반적으로 희소 행렬 형태가 된다. 그리고 이러한 희소 행렬에 분류를 효과적으로 잘 처리할 수 있는 알고리즘은 로지스틱 회구, 선형 서포트 벡터 머신, 나이브 베이즈 등이다. 이 중 로지스틱 회귀를 이용해 분류를 수행해보자. 텍스트를 기반으로 분류를 수행할 때는 먼저 텍스트를 정규화한 뒤 feature 벡터화를 적용한다. 그리고 그 이후에 적합한 머신러닝 알고리즘을 적용해 분류를 학습/예측/평가합니다.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>텍스트 정규화</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">fetch_20newsgroups</span>
+
+<span class="n">news_data</span> <span class="o">=</span> <span class="n">fetch_20newsgroups</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="s1">&#39;all&#39;</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">156</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\Users\ehfus\Anaconda3\envs\dv2021\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
+C:\Users\ehfus\Anaconda3\envs\dv2021\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
+C:\Users\ehfus\Anaconda3\envs\dv2021\lib\site-packages\numpy\.libs\libopenblas.XWYDX2IKJW2NMTWSFYNGFUWKQU3LYTCZ.gfortran-win_amd64.dll
+  warnings.warn(&#34;loaded more than 1 DLL from .libs:&#34;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>어떠한 key 값을 가지고 있는지 확인해 보자.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">news_data</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>dict_keys([&#39;data&#39;, &#39;filenames&#39;, &#39;target_names&#39;, &#39;target&#39;, &#39;DESCR&#39;])
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>다음으로 Target 클래스가 어떻게 구성돼 있는지 확인해 보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;target 클래스의 값과 분포도 </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">news_data</span><span class="o">.</span><span class="n">target</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">sort_index</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;target 클래스의 이름들 </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">news_data</span><span class="o">.</span><span class="n">target_names</span><span class="p">)</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">news_data</span><span class="o">.</span><span class="n">target_names</span><span class="p">),</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">news_data</span><span class="o">.</span><span class="n">target</span><span class="p">)</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>target 클래스의 값과 분포도 
+ 0     799
+1     973
+2     985
+3     982
+4     963
+5     988
+6     975
+7     990
+8     996
+9     994
+10    999
+11    991
+12    984
+13    990
+14    987
+15    997
+16    910
+17    940
+18    775
+19    628
+dtype: int64
+target 클래스의 이름들 
+ [&#39;alt.atheism&#39;, &#39;comp.graphics&#39;, &#39;comp.os.ms-windows.misc&#39;, &#39;comp.sys.ibm.pc.hardware&#39;, &#39;comp.sys.mac.hardware&#39;, &#39;comp.windows.x&#39;, &#39;misc.forsale&#39;, &#39;rec.autos&#39;, &#39;rec.motorcycles&#39;, &#39;rec.sport.baseball&#39;, &#39;rec.sport.hockey&#39;, &#39;sci.crypt&#39;, &#39;sci.electronics&#39;, &#39;sci.med&#39;, &#39;sci.space&#39;, &#39;soc.religion.christian&#39;, &#39;talk.politics.guns&#39;, &#39;talk.politics.mideast&#39;, &#39;talk.politics.misc&#39;, &#39;talk.religion.misc&#39;]
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(20, (18846,))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>개별 데이터가 텍스트로 어떻게 구성돼 있는지 데이터를 한 개만 추출해 값을 확인해 보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">news_data</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>From: egreen@east.sun.com (Ed Green - Pixel Cruncher)
+Subject: Re: Observation re: helmets
+Organization: Sun Microsystems, RTP, NC
+Lines: 21
+Distribution: world
+Reply-To: egreen@east.sun.com
+NNTP-Posting-Host: laser.east.sun.com
+
+In article 211353@mavenry.altcit.eskimo.com, maven@mavenry.altcit.eskimo.com (Norman Hamer) writes:
+&gt; 
+&gt; The question for the day is re: passenger helmets, if you don&#39;t know for 
+&gt;certain who&#39;s gonna ride with you (like say you meet them at a .... church 
+&gt;meeting, yeah, that&#39;s the ticket)... What are some guidelines? Should I just 
+&gt;pick up another shoei in my size to have a backup helmet (XL), or should I 
+&gt;maybe get an inexpensive one of a smaller size to accomodate my likely 
+&gt;passenger? 
+
+If your primary concern is protecting the passenger in the event of a
+crash, have him or her fitted for a helmet that is their size.  If your
+primary concern is complying with stupid helmet laws, carry a real big
+spare (you can put a big or small head in a big helmet, but not in a
+small one).
+
+---
+Ed Green, former Ninjaite |I was drinking last night with a biker,
+  Ed.Green@East.Sun.COM   |and I showed him a picture of you.  I said,
+DoD #0111  (919)460-8302  |&#34;Go on, get to know her, you&#39;ll like her!&#34;
+ (The Grateful Dead) --&gt;  |It seemed like the least I could do...
+
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>텍스트 데이터를 확인해 보면 뉴스그룹 기사의 내용뿐만 아니라 뉴스그룹 제목, 작성자, 소속, 이메일 등의 다양한 정보를 가지고 있다. 이 중에서 내용을 제외하고 제목 등의 다른 정보는 제거하자. </li>
+<li>remove 파라미터를 이용하면 뉴스그룹 기사의 헤더, 푸터 정보등을 제거할 수 있다. </li>
+<li>또한 fetch_20newsgroup()는 subset 파라미터를 이용해 학습 데이터 세트와 테스트 데이터 세트를 분리해 내려받을 수 있다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">fetch_20newsgroups</span>
+
+<span class="c1"># subset=&#39;train&#39;으로 학습용(Train) 데이터만 추출, remove=(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;)로 내용만 추출</span>
+<span class="n">train_news</span><span class="o">=</span> <span class="n">fetch_20newsgroups</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="s1">&#39;train&#39;</span><span class="p">,</span> <span class="n">remove</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;headers&#39;</span><span class="p">,</span> <span class="s1">&#39;footers&#39;</span><span class="p">,</span> <span class="s1">&#39;quotes&#39;</span><span class="p">),</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">156</span><span class="p">)</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">train_news</span><span class="o">.</span><span class="n">data</span>
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">train_news</span><span class="o">.</span><span class="n">target</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">X_train</span><span class="p">))</span>
+
+<span class="c1"># subset=&#39;test&#39;으로 테스트(Test) 데이터만 추출, remove=(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;)로 내용만 추출</span>
+<span class="n">test_news</span><span class="o">=</span> <span class="n">fetch_20newsgroups</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span><span class="n">remove</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;headers&#39;</span><span class="p">,</span> <span class="s1">&#39;footers&#39;</span><span class="p">,</span><span class="s1">&#39;quotes&#39;</span><span class="p">),</span><span class="n">random_state</span><span class="o">=</span><span class="mi">156</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">test_news</span><span class="o">.</span><span class="n">data</span>
+<span class="n">y_test</span> <span class="o">=</span> <span class="n">test_news</span><span class="o">.</span><span class="n">target</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;학습 데이터 크기 </span><span class="si">{0}</span><span class="s1"> , 테스트 데이터 크기 </span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">train_news</span><span class="o">.</span><span class="n">data</span><span class="p">)</span> <span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">test_news</span><span class="o">.</span><span class="n">data</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;list&#39;&gt;
+학습 데이터 크기 11314 , 테스트 데이터 크기 7532
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>feature 벡터화 변환과 머신러닝 모델 학습/예측/평가
+<pre><code>학습 데이터는 11314개의 뉴스 그룹 문서가 리스트 형태로 주어지고, 테스트 데이터는 7532개의 문서가 역시 리스트 형태로 주어졌다. CountVectorizer를 이용해 학습 데이터의 텍스트를 feature 벡터화하겠다. 테스트 데이터 역시 feature 벡터화를 수행하는데 한 가지 반드시 유의해야할 것은 바로 테스트 데이터에서 CountVectorizer를 적용할 때는 반드시 학습 데이터를 이용해 fit()이 수행된 CountVertorizer 객체를 이용해 테스트 데이터를 변환해야 한다는 것이다. 그래야만 학습 시 설정된 CountVectorizer의 feature 개수와 테스트 데이터를 CountVectorizer로 변환할 feature 개수가 같아진다. 테스트 데이터의 feature 벡터화는 학습 데이터에 사용된 CountVectorizer 객체 변수인 cnt_vect.transform()을 이용해 변환한다. </code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span>
+
+<span class="c1"># Count Vectorization으로 feature extraction 변환 수행. </span>
+<span class="n">cnt_vect</span> <span class="o">=</span> <span class="n">CountVectorizer</span><span class="p">()</span>
+<span class="n">cnt_vect</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_train_cnt_vect</span> <span class="o">=</span> <span class="n">cnt_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+
+<span class="c1"># 학습 데이터로 fit( )된 CountVectorizer를 이용하여 테스트 데이터를 feature extraction 변환 수행. </span>
+<span class="n">X_test_cnt_vect</span> <span class="o">=</span> <span class="n">cnt_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;학습 데이터 Text의 CountVectorizer Shape:&#39;</span><span class="p">,</span><span class="n">X_train_cnt_vect</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">X_test_cnt_vect</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>학습 데이터 Text의 CountVectorizer Shape: (11314, 101631) (7532, 101631)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>학습 데이터를 CountVectorizer로 feature를 추출한 결과 11341개의 문서에서 feature 즉, 단어가 101631개로 만들어졌다. 이렇게 feature 벡터화된 데이터에 로지스틱 회귀를 적용해 뉴스 그룹에 대한 분류를 예측해보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
+
+<span class="c1"># LogisticRegression을 이용하여 학습/예측/평가 수행. </span>
+<span class="n">lr_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">()</span>
+<span class="n">lr_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_cnt_vect</span> <span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_cnt_vect</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;CountVectorized Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Count 기반으로 feature 벡터화가 적용된 데이터 세트에 대한 로지스틱 회귀의 예측 정확도는 0.617이다. </li>
+<li>TF-IDF 기반으로 벡터화를 변경해 예측 모델을 수행해보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">roc_auc_score</span>
+<span class="c1"># TF-IDF Vectorization 적용하여 학습 데이터셋과 테스트 데이터 셋 변환. </span>
+<span class="n">tfidf_vect</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
+<span class="n">tfidf_vect</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_train_tfidf_vect</span> <span class="o">=</span> <span class="n">tfidf_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test_tfidf_vect</span> <span class="o">=</span> <span class="n">tfidf_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+
+<span class="c1"># LogisticRegression을 이용하여 학습/예측/평가 수행. </span>
+<span class="n">lr_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">()</span>
+<span class="n">lr_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_tfidf_vect</span> <span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_tfidf_vect</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;TF-IDF Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>TF-IDF Logistic Regression 의 예측 정확도는 0.674
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>TF-IDF가 단순 카운트 기반보다 훨씬 높은 예측 정확도를 제공한다. </li>
+<li>일반적으로 문서 내에 텍스트가 많고 많은 문서를 가지는 텍스틑 분석에서 카운트 벡터화보다는 TF-IDF 벡터화가 좋은 예측 결과를 도출한다.</li>
+<li>텍스트 분석에서 머신러닝 모델의 성능을 향상시키는 중요한 2가지 방법은 최적의 ML 알고리즘을 선택하는 것과 최상의 feature 전처리를 수행하는 것이다.</li>
+<li>TF-IDF 벡터화에서 좀 더 다양한 파라미터를 적용해보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># stop words 필터링을 추가하고 ngram을 기본(1,1)에서 (1,2)로 변경하여 Feature Vectorization 적용.</span>
+<span class="n">tfidf_vect</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="s1">&#39;english&#39;</span><span class="p">,</span> <span class="n">ngram_range</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="n">max_df</span><span class="o">=</span><span class="mi">300</span> <span class="p">)</span>
+<span class="n">tfidf_vect</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_train_tfidf_vect</span> <span class="o">=</span> <span class="n">tfidf_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test_tfidf_vect</span> <span class="o">=</span> <span class="n">tfidf_vect</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+
+<span class="n">lr_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">()</span>
+<span class="n">lr_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_tfidf_vect</span> <span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">lr_clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_tfidf_vect</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;TF-IDF Vectorized Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이번에는 GridSearchCV를 이용해 로지스틱 회귀의 하이퍼 파라미터 최적화를 수행해보자.</li>
+<li>로지스틱 회귀의 C파라미터만 변경하면서 최적의 C값을 찾은 뒤 이 C값으로 학습된 모델에서 테스트 데이터로 예측해 성능을 평가해보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
+
+<span class="c1"># 최적 C 값 도출 튜닝 수행. CV는 3 Fold셋으로 설정. </span>
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;C&#39;</span><span class="p">:[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">]}</span>
+<span class="n">grid_cv_lr</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">lr_clf</span> <span class="p">,</span><span class="n">param_grid</span><span class="o">=</span><span class="n">params</span> <span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">3</span> <span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;accuracy&#39;</span> <span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span> <span class="p">)</span>
+<span class="n">grid_cv_lr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_tfidf_vect</span> <span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Logistic Regression best C parameter :&#39;</span><span class="p">,</span><span class="n">grid_cv_lr</span><span class="o">.</span><span class="n">best_params_</span> <span class="p">)</span>
+
+<span class="c1"># 최적 C 값으로 학습된 grid_cv로 예측 수행하고 정확도 평가. </span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">grid_cv_lr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_tfidf_vect</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;TF-IDF Vectorized Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>로지스틱 회귀의 C가 10일 때 GridSearchCV의 교차 검증 테스트 세트에서 가장 좋은 예측 성능을 나타냈으며, 이를 테스트 데이터 세트에 적용해 약 0.703으로 이전보다 약간 향상된 성능 수치가 됐다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h5 id="&#49324;&#51060;&#53431;&#47088;-&#54028;&#51060;&#54532;&#46972;&#51064;-&#49324;&#50857;-&#48143;-GridSearchCV&#50752;&#51032;-&#44208;&#54633;"><strong><em>&#49324;&#51060;&#53431;&#47088; &#54028;&#51060;&#54532;&#46972;&#51064; &#49324;&#50857; &#48143; GridSearchCV&#50752;&#51032; &#44208;&#54633;</em></strong><a class="anchor-link" href="#&#49324;&#51060;&#53431;&#47088;-&#54028;&#51060;&#54532;&#46972;&#51064;-&#49324;&#50857;-&#48143;-GridSearchCV&#50752;&#51032;-&#44208;&#54633;"> </a></h5><p>사이킷런의 Pipeline 클래스를 이용하면 feature 벡터화와 ML 알고리즘 학습/예측을 위한 코드 작성을 한 번에 진행할 수 있다. 일반적으로 머신러닝에서 Pipeline이란 데이터의 가공, 변환 등의 전처리와 알고리즘 적용을 마치 '수도관(Pipe)에서 물이 흐르듯' 한꺼번에 스트림 기반으로 처리한다는 의미이다. 이렇게 Pipeline을 이용하면 데이터 전처리와 머신러닝 학습 과정을 통일된 API 기반에서 처리할 수 있어 더 직관적인 ML 모델 코드를 생성할 수 있다. 또한 대용량 데이터의 feature 벡터화 결과를 별도 데이터로 저장하지 않고 스트림 기반에서 바로 머신러닝 알고리즘의 데이터로 입력할 수 있기 때문에 수행시간을 절약할 수 있다. 일반적으로 사이킷런 파이프라인은 텍스트 기반의 feature 벡터화뿐만 아니라 모든 데이터 전처리 작업과 Estimator를 결합할 수 있다. 예를 들어 스케일링 또는 벡터 정규화, PCA 등의 변환 작업과 분류, 회귀 등의 Estimator를 한 번에 결합하는 것이다.</p>
+</blockquote>
+
+<pre><code>  다음은 위에서 텍스트 분류 예제 코드를 Pipeline을 이용해 다시 작성한 코드이다 
+  Pipeline 객체는 다음과 같이 선언한다. </code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>TfidfVectorizer 객체를 tfidf_vect라는 객체 변수 명으로, LogisticRegression 객체를 lr_clf라는 객체 변수 명으로 생성한 뒤 이 두 개의 객체를 파이프라인으로 연결하는 Pipeline 객체 pipeline을 생성한다는 의미이다. </li>
+<li>또한 다음 코드를 보면 기존 TfidfVectorizer의 학습 데이터와 테스트 데이터에 대한 fit()과 transform() 수행을 통한 feature 벡터화와 LogisticRegressor의 fit()과 predict() 수행을 통한 머신러닝 모델의 학습과 예측이 Pipeline의 fit()과 predict()로 통일돼 수행됨을 알 수 있다. 이렇게 Pipeline 방식을 적용하면 머신러닝 코드를 더 직관적이고 쉽게 작성할 수 있다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+
+<span class="c1"># TfidfVectorizer 객체를 tfidf_vect 객체명으로, LogisticRegression객체를 lr_clf 객체명으로 생성하는 Pipeline생성</span>
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;tfidf_vect&#39;</span><span class="p">,</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="s1">&#39;english&#39;</span><span class="p">,</span> <span class="n">ngram_range</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="n">max_df</span><span class="o">=</span><span class="mi">300</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;lr_clf&#39;</span><span class="p">,</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">C</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
+<span class="p">])</span>
+
+<span class="c1"># 별도의 TfidfVectorizer객체의 fit_transform( )과 LogisticRegression의 fit(), predict( )가 필요 없음. </span>
+<span class="c1"># pipeline의 fit( ) 과 predict( ) 만으로 한꺼번에 Feature Vectorization과 ML 학습/예측이 가능. </span>
+<span class="n">pipeline</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pipeline을 통한 Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>사이킷런은 GridSearchCV 클래스의 생성 파라미터로 Pipeline을 입력해 Pipeline 기반에서도 하이퍼 파라미터 튜닝을 GridSearchCV 방식으로 진행할 수 있게 지원한다. 이렇게 하면 feature 벡터화를 위한 파라미터와 ML 알고리즘의 하이퍼 파라미터를 모두 한 번에 GridSearchCV를 이용해 최적화할 수 있다. </li>
+<li>다음 예제는 GridSearchCV에 Pipeline을 입력하면서 TfidfVectorizer의 파라미터와 LogisticRegressor의 하이퍼 파라미터를 함께 최적화한다. </li>
+<li>GridSearchCV에 Estimator가 아닌 Pipeline을 입력할 경우에는 param_grid의 입력 값 설정이 기존과 약간 다르다. 딕셔너리 형태로 들어간다. </li>
+<li>Pipeline+GridSearchCV를 적용할 때 유의할 점을 모두의 파라미터를 최적화하려면 너무 많은 튜닝 시간이 소모된다는 점이다.</li>
+<li>다음 코드는 수행시 너무 많은 시간이 소모되므로 Markdown 형식으로 남겨놓겠다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;tfidf_vect&#39;</span><span class="p">,</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="s1">&#39;english&#39;</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;lr_clf&#39;</span><span class="p">,</span> <span class="n">LogisticRegression</span><span class="p">())</span>
+<span class="p">])</span>
+
+<span class="c1"># Pipeline에 기술된 각각의 객체 변수에 언더바(_)2개를 연달아 붙여 GridSearchCV에 사용될 </span>
+<span class="c1"># 파라미터/하이퍼 파라미터 이름과 값을 설정. . </span>
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;tfidf_vect__ngram_range&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)],</span>
+           <span class="s1">&#39;tfidf_vect__max_df&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">700</span><span class="p">],</span>
+           <span class="s1">&#39;lr_clf__C&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="c1"># GridSearchCV의 생성자에 Estimator가 아닌 Pipeline 객체 입력</span>
+<span class="n">grid_cv_pipe</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">param_grid</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">3</span> <span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;accuracy&#39;</span><span class="p">,</span><span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">grid_cv_pipe</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span> <span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">grid_cv_pipe</span><span class="o">.</span><span class="n">best_params_</span> <span class="p">,</span> <span class="n">grid_cv_pipe</span><span class="o">.</span><span class="n">best_score_</span><span class="p">)</span>
+
+<span class="n">pred</span> <span class="o">=</span> <span class="n">grid_cv_pipe</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pipeline을 통한 Logistic Regression 의 예측 정확도는 </span><span class="si">{0:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><h3 id="&#44048;&#49457;-&#48516;&#49437;">&#44048;&#49457; &#48516;&#49437;<a class="anchor-link" href="#&#44048;&#49457;-&#48516;&#49437;"> </a></h3><p>문서의 주고나적인 감성,의견,감정,기분 등을 파악하기 위한 방법으로 소셜 미디어, 여론 조사, 온라인 리뷰, 피드백 등 다양한 분야에서 활용되고 있다. 감성 분석은 문서 내 텍스트가 나타내는 여러 가지 주관적인 단어와 문맥을 기바으로 감성(Sentiment) 수치를 계산하는 방법을 이용한다. 이러한 감성 지수는 긍정 감성 지수와 부정 감성 지수로 구성되며 이들 지수를 합산해 긍정 감성 또는 부정 감성을 결정한다. 이러한 감성 분석은 머신러닝 관점에서 지도학습과 비지도학습 방식으로 나눌 수 있다.</p>
+</blockquote>
+
+<pre><code>  지도학습 :학습 데이터와 타킷 레이블 값을 기반으로 감성 분석 학습을 수행한 뒤 이를 기반으로 다른 데이터의 감성 분석을 예측하는 방법으로 일반적인 텍스트 기반의 분류와 거의 동일하다.      비지도학습 : 'Lexicon'이라는 일종의 감성 어휘 사전을 이용한다. Lexicon은 감성 분석을 위한 용어와 문맥에 대한 다양한 정보를 가지고 있으며, 이를 이용해 문서의 긍정적, 부정적 감성 여부를 판단한다.</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>지도학습 기반 감성 분석 실습 $\to$ IMDB 영화평</li>
+<li>먼저 지도학습 기반으로 감성 분석을 수행하겠다. 유명한 IMBD의 영화 사이트의 영화평을 이용하겠다. (저자는 감성 분석이라는 타이틀이 붙었지만 지도학습 기반 감성 분석은 텍스트 기반의 이진 분류라고 표현하고 싶다고 했다.)</li>
+<li>영화평의 텍스트를 분석해 감성 분석 결과가 긍정 또는 부정인지를 예측하는 모델을 만들어보자.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">review_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./labeledTrainData.tsv&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">quoting</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">review_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>sentiment</th>
+      <th>review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>"5814_8"</td>
+      <td>1</td>
+      <td>"With all this stuff going down at the moment ...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>"2381_9"</td>
+      <td>1</td>
+      <td>"\"The Classic War of the Worlds\" by Timothy ...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>"7759_3"</td>
+      <td>0</td>
+      <td>"The film starts with a manager (Nicholas Bell...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Sentiment 칼럼의 1은 긍정적 평가, 0은 부정적 평가를 의미한다. </li>
+<li>이번에는 텍스트가 어떻게 구성돼 있는지 review 칼럼의 텍스트 값을 하나만 살펴보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&#34;With all this stuff going down at the moment with MJ i&#39;ve started listening to his music, watching the odd documentary here and there, watched The Wiz and watched Moonwalker again. Maybe i just want to get a certain insight into this guy who i thought was really cool in the eighties just to maybe make up my mind whether he is guilty or innocent. Moonwalker is part biography, part feature film which i remember going to see at the cinema when it was originally released. Some of it has subtle messages about MJ&#39;s feeling towards the press and also the obvious message of drugs are bad m&#39;kay.&lt;br /&gt;&lt;br /&gt;Visually impressive but of course this is all about Michael Jackson so unless you remotely like MJ in anyway then you are going to hate this and find it boring. Some may call MJ an egotist for consenting to the making of this movie BUT MJ and most of his fans would say that he made it for the fans which if true is really nice of him.&lt;br /&gt;&lt;br /&gt;The actual feature film bit when it finally starts is only on for 20 minutes or so excluding the Smooth Criminal sequence and Joe Pesci is convincing as a psychopathic all powerful drug lord. Why he wants MJ dead so bad is beyond me. Because MJ overheard his plans? Nah, Joe Pesci&#39;s character ranted that he wanted people to know it is he who is supplying drugs etc so i dunno, maybe he just hates MJ&#39;s music.&lt;br /&gt;&lt;br /&gt;Lots of cool things in this like MJ turning into a car and a robot and the whole Speed Demon sequence. Also, the director must have had the patience of a saint when it came to filming the kiddy Bad sequence as usually directors hate working with one kid let alone a whole bunch of them performing a complex dance scene.&lt;br /&gt;&lt;br /&gt;Bottom line, this movie is for people who like MJ on one level or another (which i think is most people). If not, then stay away. It does try and give off a wholesome message and ironically MJ&#39;s bestest buddy in this movie is a girl! Michael Jackson is truly one of the most talented people ever to grace this planet but is he guilty? Well, with all the attention i&#39;ve gave this subject....hmmm well i don&#39;t know because people can be different behind closed doors, i know this for a fact. He is either an extremely nice but stupid guy or one of the most sickest liars. I hope he is not the latter.&#34;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>HTML 형식에서 추출해 \<br /> 태그가 여전히 존재한다. 이 문자열은 feature로 만들 필요가 없으니 삭제.</li>
+<li>판다스의 DataFrame/Series는 문자열 연산을 지원하기 위해 str 속성을 이용한다. DataFrame/Seires 객체에서 str을 적용하면 다양한 문자열 연산을 수행할 수 있다.</li>
+<li>\<br /> 태그를 공백으로 모두 바꿔주자</li>
+<li>영어가 아닌 숫자와 특수문자 역시 Sentiment를 위한 feature로는 별 의미가 없어 보이므로 이들 모두 공란으로 변경하자. 이를 찾고 공란으로 변환하는 과정은 정규 표현식을 이용하겠다.</li>
+<li>정규 표현식은 텍스트를 처리하는 데 있어서 매우 유용하므로 익혀둘 필요가 있다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="c1"># &lt;br&gt; html 태그는 replace 함수로 공백으로 변환</span>
+<span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;&lt;br /&gt;&#39;</span><span class="p">,</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+
+<span class="c1"># 파이썬의 정규 표현식 모듈인 re를 이용하여 영어 문자열이 아닌 문자는 모두 공백으로 변환 </span>
+<span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span> <span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;[^a-zA-Z]&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span> <span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>결정 값 클래스인 sentiment 칼럼을 별도로 추출해 결정 값 데이터 세트를 만들고, 원본 데이터 세트에서 id와 sentiment 칼럼을 삭제해 feature 데이터 세트를 생성한다. </li>
+<li>그리고 train_test_split()을 이용해 학습용과 테스트용 데이터 세트로 분리한다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+
+<span class="n">class_df</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;sentiment&#39;</span><span class="p">]</span>
+<span class="n">feature_df</span> <span class="o">=</span> <span class="n">review_df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;id&#39;</span><span class="p">,</span><span class="s1">&#39;sentiment&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span><span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">feature_df</span><span class="p">,</span> <span class="n">class_df</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">156</span><span class="p">)</span>
+
+<span class="n">X_train</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">X_test</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>((17500, 1), (7500, 1))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이제 review 텍스트를 feature 벡터화한 후에 ML 분류 알고리즘을 적용해 예측 성능을 측정하자. </li>
+<li>앞 절에서 설명한 Pipeline 객체를 이용해 이 두 가지를 한꺼번에 수행해보자. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span><span class="p">,</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">roc_auc_score</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="c1"># 스톱 워드는 English, filtering, ngram은 (1,2)로 설정해 CountVectorization수행. </span>
+<span class="c1"># LogisticRegression의 C는 10으로 설정. </span>
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;cnt_vect&#39;</span><span class="p">,</span> <span class="n">CountVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="s1">&#39;english&#39;</span><span class="p">,</span> <span class="n">ngram_range</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;lr_clf&#39;</span><span class="p">,</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">C</span><span class="o">=</span><span class="mi">10</span><span class="p">))])</span>
+
+<span class="c1"># Pipeline 객체를 이용하여 fit(), predict()로 학습/예측 수행. predict_proba()는 roc_auc때문에 수행.  </span>
+<span class="n">pipeline</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">],</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">])</span>
+<span class="n">pred_probs</span> <span class="o">=</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">])[:,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;예측 정확도는 </span><span class="si">{0:.4f}</span><span class="s1">, ROC-AUC는 </span><span class="si">{1:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">),</span>
+                                         <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_probs</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이번에는 TF-IDF 벡터화를 적용해 다시 예측 성능을 특정해 보자.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># LogisticRegression의 C는 10으로 설정. </span>
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;tfidf_vect&#39;</span><span class="p">,</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="s1">&#39;english&#39;</span><span class="p">,</span> <span class="n">ngram_range</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;lr_clf&#39;</span><span class="p">,</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">C</span><span class="o">=</span><span class="mi">10</span><span class="p">))])</span>
+
+<span class="n">pipeline</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">],</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">])</span>
+<span class="n">pred_probs</span> <span class="o">=</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">])[:,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;예측 정확도는 </span><span class="si">{0:.4f}</span><span class="s1">, ROC-AUC는 </span><span class="si">{1:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span> <span class="p">,</span><span class="n">pred</span><span class="p">),</span>
+                                         <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_probs</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>예측 정확도는 0.8936, ROC-AUC는 0.9598
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>TF-IDF 기반 feature 벡터화의 예측 성능이 조금 더 나아졌다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>비지도학습 기반 감성 분석</p>
+</blockquote>
+
+<pre><code>  Lexicon을 기반으로 이루어짐. 위에선 데이터 세트가 레이블 값을 가지고 있었지만 많은 감성 분석용 데이터는 이러한 결정된 레이블 값을 가지고 있지 않다. 이러한 경우에 Lexicon은 유용하게 사용된다. Lexicon은 긍정 감성 또는 부정 감성의 정도를 의미하는 수치를 가지고 있으며 이를 감성 지수라고 한다. 이 감성 지수는 단어의 위치나 주변 단어, 문맥, POS(Part of Speech)등을 참고해 결정된다. </code></pre>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>502p 참고</li>
+<li>SentiWordNet과 VADER 감성 사전을 이용해 감성 분석을 수행한 뒤 예측 성능을 지도학습 기반의 분류와 비교해보자</li>
+<li>'present' 단어에 대한 Synset을 추출하자. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">wordnet</span> <span class="k">as</span> <span class="n">wn</span>
+
+<span class="n">term</span> <span class="o">=</span> <span class="s1">&#39;present&#39;</span>
+
+<span class="c1"># &#39;present&#39;라는 단어로 wordnet의 synsets 생성. </span>
+<span class="n">synsets</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synsets</span><span class="p">(</span><span class="n">term</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;synsets() 반환 type :&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">synsets</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;synsets() 반환 값 갯수:&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">synsets</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;synsets() 반환 값 :&#39;</span><span class="p">,</span> <span class="n">synsets</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>synsets() 반환 type : &lt;class &#39;list&#39;&gt;
+synsets() 반환 값 갯수: 18
+synsets() 반환 값 : [Synset(&#39;present.n.01&#39;), Synset(&#39;present.n.02&#39;), Synset(&#39;present.n.03&#39;), Synset(&#39;show.v.01&#39;), Synset(&#39;present.v.02&#39;), Synset(&#39;stage.v.01&#39;), Synset(&#39;present.v.04&#39;), Synset(&#39;present.v.05&#39;), Synset(&#39;award.v.01&#39;), Synset(&#39;give.v.08&#39;), Synset(&#39;deliver.v.01&#39;), Synset(&#39;introduce.v.01&#39;), Synset(&#39;portray.v.04&#39;), Synset(&#39;confront.v.03&#39;), Synset(&#39;present.v.12&#39;), Synset(&#39;salute.v.06&#39;), Synset(&#39;present.a.01&#39;), Synset(&#39;present.a.02&#39;)]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>총 18개의 서로 다른 semantic(문맥상의)을 가지는 synset 객체가 반환됐다. </li>
+<li>synset 객체가 가지는 여러 가지 속성을 살펴보면, POS(품사), 정의, 부명제 등으로 시맨틱적인 요소를 표현할 수 있다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">synset</span> <span class="ow">in</span> <span class="n">synsets</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;##### Synset name : &#39;</span><span class="p">,</span> <span class="n">synset</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span><span class="s1">&#39;#####&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;POS :&#39;</span><span class="p">,</span><span class="n">synset</span><span class="o">.</span><span class="n">lexname</span><span class="p">())</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Definition:&#39;</span><span class="p">,</span><span class="n">synset</span><span class="o">.</span><span class="n">definition</span><span class="p">())</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Lemmas:&#39;</span><span class="p">,</span><span class="n">synset</span><span class="o">.</span><span class="n">lemma_names</span><span class="p">())</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이처럼 synset은 하나의 단어가 가질 수 있는 여러 가지 시맨틱 정보를 개별 클래스로 나타낸 것이다. </li>
+<li>WordNet은 어떤 어휘와 다른 어휘 간의 관계를 유사도로 나타낼 수 있다. synset 객체는 단어 간의 유사도를 나타내기 위해서 path_similarity() 메서드를 제공한다. </li>
+<li>해당 메서드를 통해 'tree','lion','tiger','cat','dog'라는 단어의 상호 유사도를 살펴보자</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tree</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synset</span><span class="p">(</span><span class="s1">&#39;tree.n.01&#39;</span><span class="p">)</span>
+<span class="n">lion</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synset</span><span class="p">(</span><span class="s1">&#39;lion.n.01&#39;</span><span class="p">)</span>
+<span class="n">tiger</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synset</span><span class="p">(</span><span class="s1">&#39;tiger.n.02&#39;</span><span class="p">)</span>
+<span class="n">cat</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synset</span><span class="p">(</span><span class="s1">&#39;cat.n.01&#39;</span><span class="p">)</span>
+<span class="n">dog</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synset</span><span class="p">(</span><span class="s1">&#39;dog.n.01&#39;</span><span class="p">)</span>
+
+<span class="n">entities</span> <span class="o">=</span> <span class="p">[</span><span class="n">tree</span> <span class="p">,</span> <span class="n">lion</span> <span class="p">,</span> <span class="n">tiger</span> <span class="p">,</span> <span class="n">cat</span> <span class="p">,</span> <span class="n">dog</span><span class="p">]</span>
+<span class="n">similarities</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">entity_names</span> <span class="o">=</span> <span class="p">[</span> <span class="n">entity</span><span class="o">.</span><span class="n">name</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">entity</span> <span class="ow">in</span> <span class="n">entities</span><span class="p">]</span>
+
+<span class="c1"># 단어별 synset 들을 iteration 하면서 다른 단어들의 synset과 유사도를 측정합니다. </span>
+<span class="k">for</span> <span class="n">entity</span> <span class="ow">in</span> <span class="n">entities</span><span class="p">:</span>
+    <span class="n">similarity</span> <span class="o">=</span> <span class="p">[</span> <span class="nb">round</span><span class="p">(</span><span class="n">entity</span><span class="o">.</span><span class="n">path_similarity</span><span class="p">(</span><span class="n">compared_entity</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>  <span class="k">for</span> <span class="n">compared_entity</span> <span class="ow">in</span> <span class="n">entities</span> <span class="p">]</span>
+    <span class="n">similarities</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">similarity</span><span class="p">)</span>
+    
+<span class="c1"># 개별 단어별 synset과 다른 단어의 synset과의 유사도를 DataFrame형태로 저장합니다.  </span>
+<span class="n">similarity_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">similarities</span> <span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">entity_names</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="n">entity_names</span><span class="p">)</span>
+<span class="n">similarity_df</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tree</th>
+      <th>lion</th>
+      <th>tiger</th>
+      <th>cat</th>
+      <th>dog</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tree</th>
+      <td>1.00</td>
+      <td>0.07</td>
+      <td>0.07</td>
+      <td>0.08</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <th>lion</th>
+      <td>0.07</td>
+      <td>1.00</td>
+      <td>0.33</td>
+      <td>0.25</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <th>tiger</th>
+      <td>0.07</td>
+      <td>0.33</td>
+      <td>1.00</td>
+      <td>0.25</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <th>cat</th>
+      <td>0.08</td>
+      <td>0.25</td>
+      <td>0.25</td>
+      <td>1.00</td>
+      <td>0.20</td>
+    </tr>
+    <tr>
+      <th>dog</th>
+      <td>0.12</td>
+      <td>0.17</td>
+      <td>0.17</td>
+      <td>0.20</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>SentiWordNet은 WordNet의 Synset과 유사한 Senti_Synset 클래스를 가지고 있다. SentiWordNet 모듈의 senti_synsets()는 WordNet 모듈이라서 synsets()와 비슷하게 Senti_Synset 클래스를 리스트 형태로 반환한다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">sentiwordnet</span> <span class="k">as</span> <span class="n">swn</span>
+
+<span class="n">senti_synsets</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">swn</span><span class="o">.</span><span class="n">senti_synsets</span><span class="p">(</span><span class="s1">&#39;slow&#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;senti_synsets() 반환 type :&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">senti_synsets</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;senti_synsets() 반환 값 갯수:&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">senti_synsets</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;senti_synsets() 반환 값 :&#39;</span><span class="p">,</span> <span class="n">senti_synsets</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>senti_synsets() 반환 type : &lt;class &#39;list&#39;&gt;
+senti_synsets() 반환 값 갯수: 11
+senti_synsets() 반환 값 : [SentiSynset(&#39;decelerate.v.01&#39;), SentiSynset(&#39;slow.v.02&#39;), SentiSynset(&#39;slow.v.03&#39;), SentiSynset(&#39;slow.a.01&#39;), SentiSynset(&#39;slow.a.02&#39;), SentiSynset(&#39;dense.s.04&#39;), SentiSynset(&#39;slow.a.04&#39;), SentiSynset(&#39;boring.s.01&#39;), SentiSynset(&#39;dull.s.08&#39;), SentiSynset(&#39;slowly.r.01&#39;), SentiSynset(&#39;behind.r.03&#39;)]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>SentiSynset 객체는 단어의 감성을 나타내는 감성 지수와 객관성을 나타내는 객관성 지수를 가지고 있다. 감성 지수는 다시 긍정 감성 지수와 부정 감성 지수로 나뉜다. 어떤 단어가 전혀 감성적이지 않으면 객관성 지수는 1이 되고 감성 지수는 모두 0이 된다. 다음은 father라는 단어와 fabulous라는 두 개의 단어의 감성 지수와 객관성 지수를 나타낸다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">sentiwordnet</span> <span class="k">as</span> <span class="n">swn</span>
+
+<span class="n">father</span> <span class="o">=</span> <span class="n">swn</span><span class="o">.</span><span class="n">senti_synset</span><span class="p">(</span><span class="s1">&#39;father.n.01&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;father 긍정감성 지수: &#39;</span><span class="p">,</span> <span class="n">father</span><span class="o">.</span><span class="n">pos_score</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;father 부정감성 지수: &#39;</span><span class="p">,</span> <span class="n">father</span><span class="o">.</span><span class="n">neg_score</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;father 객관성 지수: &#39;</span><span class="p">,</span> <span class="n">father</span><span class="o">.</span><span class="n">obj_score</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">fabulous</span> <span class="o">=</span> <span class="n">swn</span><span class="o">.</span><span class="n">senti_synset</span><span class="p">(</span><span class="s1">&#39;fabulous.a.01&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fabulous 긍정감성 지수: &#39;</span><span class="p">,</span><span class="n">fabulous</span> <span class="o">.</span><span class="n">pos_score</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fabulous 부정감성 지수: &#39;</span><span class="p">,</span><span class="n">fabulous</span> <span class="o">.</span><span class="n">neg_score</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>father 긍정감성 지수:  0.0
+father 부정감성 지수:  0.0
+father 객관성 지수:  1.0
+
+
+fabulous 긍정감성 지수:  0.875
+fabulous 부정감성 지수:  0.125
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>father는 객관적인 단어로 객관성 지수가 1이고 긍정 감성/부정 감성 지수 모두 0이다. 반면에 fabulous는 감성 단어로서 긍정 감성 지수가 0.9에 육박한다. </li>
+<li>이제 IMBD 영화 감상평 감성 분석을 SentiWordNet Lexicon 기반으로 수행해 보자.</li>
+</ul>
+<ol>
+<li>문서를 문장 단위로 분해</li>
+<li>다시 문장을 단어 단위로 토큰화하고 품사 태깅</li>
+<li>품사 태깅된 단어 기반으로 synset 객체와 senti_synset 객체를 생성</li>
+<li>Senti_synset에서 긍정 감성/부정 감성 지수를 구하고 이를 모두 합산해 특정 임계치 값 이상일 때 긍정 감성으로, 그렇지 않을 때는 부정 감성으로 결정</li>
+</ol>
+<ul>
+<li>SentiWordNet을 이용하기 위해서 WordNet을 이용해 문서를 다시 단어로 토큰화한 뒤 어근 추출과 품사 태깅을 적용한다.</li>
+<li>먼저 품사 태킹을 수행하는 내부 함수를 생성한다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">wordnet</span> <span class="k">as</span> <span class="n">wn</span>
+
+<span class="c1"># 간단한 NTLK PennTreebank Tag를 기반으로 WordNet기반의 품사 Tag로 변환</span>
+<span class="k">def</span> <span class="nf">penn_to_wn</span><span class="p">(</span><span class="n">tag</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">tag</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;J&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">wn</span><span class="o">.</span><span class="n">ADJ</span>
+    <span class="k">elif</span> <span class="n">tag</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;N&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">wn</span><span class="o">.</span><span class="n">NOUN</span>
+    <span class="k">elif</span> <span class="n">tag</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;R&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">wn</span><span class="o">.</span><span class="n">ADV</span>
+    <span class="k">elif</span> <span class="n">tag</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;V&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">wn</span><span class="o">.</span><span class="n">VERB</span>
+    <span class="k">return</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이제 문서를 문장 $\to$ 단어 토큰 $\to$ 품사 태깅 후에 SentiSynset 클래스를 생성하고 Polarity Score를 합산하는 함수를 생성한다. </li>
+<li>각 단어의 긍정 감성 지수와 부정 감성 지수를 모두 합한 총 감성 지수가 0 이상일 경우 긍정 감성, 그렇지 않을 경우 부정 감성으로 예측한다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">WordNetLemmatizer</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">sentiwordnet</span> <span class="k">as</span> <span class="n">swn</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">sent_tokenize</span><span class="p">,</span> <span class="n">word_tokenize</span><span class="p">,</span> <span class="n">pos_tag</span>
+
+<span class="k">def</span> <span class="nf">swn_polarity</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="c1"># 감성 지수 초기화 </span>
+    <span class="n">sentiment</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">tokens_count</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="n">lemmatizer</span> <span class="o">=</span> <span class="n">WordNetLemmatizer</span><span class="p">()</span>
+    <span class="n">raw_sentences</span> <span class="o">=</span> <span class="n">sent_tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+    <span class="c1"># 분해된 문장별로 단어 토큰 -&gt; 품사 태깅 후에 SentiSynset 생성 -&gt; 감성 지수 합산 </span>
+    <span class="k">for</span> <span class="n">raw_sentence</span> <span class="ow">in</span> <span class="n">raw_sentences</span><span class="p">:</span>
+        <span class="c1"># NTLK 기반의 품사 태깅 문장 추출  </span>
+        <span class="n">tagged_sentence</span> <span class="o">=</span> <span class="n">pos_tag</span><span class="p">(</span><span class="n">word_tokenize</span><span class="p">(</span><span class="n">raw_sentence</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="p">,</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">tagged_sentence</span><span class="p">:</span>
+            
+            <span class="c1"># WordNet 기반 품사 태깅과 어근 추출</span>
+            <span class="n">wn_tag</span> <span class="o">=</span> <span class="n">penn_to_wn</span><span class="p">(</span><span class="n">tag</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">wn_tag</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="n">wn</span><span class="o">.</span><span class="n">NOUN</span> <span class="p">,</span> <span class="n">wn</span><span class="o">.</span><span class="n">ADJ</span><span class="p">,</span> <span class="n">wn</span><span class="o">.</span><span class="n">ADV</span><span class="p">):</span>
+                <span class="k">continue</span>                   
+            <span class="n">lemma</span> <span class="o">=</span> <span class="n">lemmatizer</span><span class="o">.</span><span class="n">lemmatize</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="n">wn_tag</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">lemma</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="c1"># 어근을 추출한 단어와 WordNet 기반 품사 태깅을 입력해 Synset 객체를 생성. </span>
+            <span class="n">synsets</span> <span class="o">=</span> <span class="n">wn</span><span class="o">.</span><span class="n">synsets</span><span class="p">(</span><span class="n">lemma</span> <span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="n">wn_tag</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">synsets</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="c1"># sentiwordnet의 감성 단어 분석으로 감성 synset 추출</span>
+            <span class="c1"># 모든 단어에 대해 긍정 감성 지수는 +로 부정 감성 지수는 -로 합산해 감성 지수 계산. </span>
+            <span class="n">synset</span> <span class="o">=</span> <span class="n">synsets</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">swn_synset</span> <span class="o">=</span> <span class="n">swn</span><span class="o">.</span><span class="n">senti_synset</span><span class="p">(</span><span class="n">synset</span><span class="o">.</span><span class="n">name</span><span class="p">())</span>
+            <span class="n">sentiment</span> <span class="o">+=</span> <span class="p">(</span><span class="n">swn_synset</span><span class="o">.</span><span class="n">pos_score</span><span class="p">()</span> <span class="o">-</span> <span class="n">swn_synset</span><span class="o">.</span><span class="n">neg_score</span><span class="p">())</span>           
+            <span class="n">tokens_count</span> <span class="o">+=</span> <span class="mi">1</span>
+    
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">tokens_count</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    
+    <span class="c1"># 총 score가 0 이상일 경우 긍정(Positive) 1, 그렇지 않을 경우 부정(Negative) 0 반환</span>
+    <span class="k">if</span> <span class="n">sentiment</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    
+    <span class="k">return</span> <span class="mi">0</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;preds&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span> <span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">swn_polarity</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">y_target</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;sentiment&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">preds</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;preds&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">precision_score</span> 
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">recall_score</span><span class="p">,</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">roc_auc_score</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">(</span> <span class="n">y_target</span><span class="p">,</span> <span class="n">preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;정확도:&quot;</span><span class="p">,</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_target</span> <span class="p">,</span> <span class="n">preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;정밀도:&quot;</span><span class="p">,</span> <span class="n">precision_score</span><span class="p">(</span><span class="n">y_target</span> <span class="p">,</span> <span class="n">preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;재현율:&quot;</span><span class="p">,</span> <span class="n">recall_score</span><span class="p">(</span><span class="n">y_target</span><span class="p">,</span> <span class="n">preds</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[7668 4832]
+ [3636 8864]]
+정확도: 0.66128
+정밀도: 0.647196261682243
+재현율: 0.70912
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>전반적인 성능 평가 지표가 만족스러울 만한 수치는 아니다. </li>
+<li>이번에는 좀 더 성능 평가 지표가 잘 나올 것으로 예상되는 VADER를 이용해 감성 분석을 수행해보자.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>VADER는 소셜 미디어의 감성 분석 용도로 만들어진 룰 기반의 Lexicon이다. </li>
+<li>간략하게 IMDB의 감상평 한 개만 감성 분석을 수행해 결과를 살펴보자</li>
+<li>VADER의 경우 지속적으로 버전이 업데이트 되므로 설치한 VADER 버전에 따라 다음 결과는 상이할 수 있다.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nltk.sentiment.vader</span> <span class="kn">import</span> <span class="n">SentimentIntensityAnalyzer</span>
+
+<span class="n">senti_analyzer</span> <span class="o">=</span> <span class="n">SentimentIntensityAnalyzer</span><span class="p">()</span>
+<span class="n">senti_scores</span> <span class="o">=</span> <span class="n">senti_analyzer</span><span class="o">.</span><span class="n">polarity_scores</span><span class="p">(</span><span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">senti_scores</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{&#39;neg&#39;: 0.13, &#39;neu&#39;: 0.743, &#39;pos&#39;: 0.127, &#39;compound&#39;: -0.7943}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>이처럼 VADER를 이용하면 매우 쉽게 감성 분석을 수행할 수 있다. 먼저 위 셀의 두번 째 줄처럼 객체를 생성한 뒤 문서별로 polarity_scores() 메서드를 호출해 감성 점수를 구한 뒤, 해당 문서의 감성 점수가 특정 임계값 이상이면 긍정, 그렇지 않으면 부정으로 판단한다. </li>
+<li>VADER를 이용해 IMDB의 감성 분석을 수행해보자.</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">vader_polarity</span><span class="p">(</span><span class="n">review</span><span class="p">,</span><span class="n">threshold</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
+    <span class="n">analyzer</span> <span class="o">=</span> <span class="n">SentimentIntensityAnalyzer</span><span class="p">()</span>
+    <span class="n">scores</span> <span class="o">=</span> <span class="n">analyzer</span><span class="o">.</span><span class="n">polarity_scores</span><span class="p">(</span><span class="n">review</span><span class="p">)</span>
+    
+    <span class="c1"># compound 값에 기반하여 threshold 입력값보다 크면 1, 그렇지 않으면 0을 반환 </span>
+    <span class="n">agg_score</span> <span class="o">=</span> <span class="n">scores</span><span class="p">[</span><span class="s1">&#39;compound&#39;</span><span class="p">]</span>
+    <span class="n">final_sentiment</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">agg_score</span> <span class="o">&gt;=</span> <span class="n">threshold</span> <span class="k">else</span> <span class="mi">0</span>
+    <span class="k">return</span> <span class="n">final_sentiment</span>
+
+<span class="c1"># apply lambda 식을 이용하여 레코드별로 vader_polarity( )를 수행하고 결과를 &#39;vader_preds&#39;에 저장</span>
+<span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;vader_preds&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;review&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span> <span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">vader_polarity</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">y_target</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;sentiment&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">vader_preds</span> <span class="o">=</span> <span class="n">review_df</span><span class="p">[</span><span class="s1">&#39;vader_preds&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;#### VADER 예측 성능 평가 ####&#39;</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">precision_score</span> 
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">recall_score</span><span class="p">,</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">roc_auc_score</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">(</span> <span class="n">y_target</span><span class="p">,</span> <span class="n">vader_preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;정확도:&quot;</span><span class="p">,</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_target</span> <span class="p">,</span> <span class="n">vader_preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;정밀도:&quot;</span><span class="p">,</span> <span class="n">precision_score</span><span class="p">(</span><span class="n">y_target</span> <span class="p">,</span> <span class="n">vader_preds</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;재현율:&quot;</span><span class="p">,</span> <span class="n">recall_score</span><span class="p">(</span><span class="n">y_target</span><span class="p">,</span> <span class="n">vader_preds</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>#### VADER 예측 성능 평가 ####
+[[ 6747  5753]
+ [ 1858 10642]]
+정확도: 0.69556
+정밀도: 0.6491003354681305
+재현율: 0.85136
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>정확도가 SentiWordNet보다 향상됐고, 특히 재현율은 매우 크게 향상됐다. 이외에도 pattern이라는 감성 사전 패키지가 있으나 파이썬 3버전에서는 지원 X</li>
+<li>감성 사전을 이용한 감성 분석 예측 성능은 지도학습 분류 기반의 예측 성능에 비해 아직은 낮은 수준이지만 결정 클래스 값이 없는 상황을 고려한다면 예측 성능에 일정 수준 만족할 수 있을 것이다. </li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/INTROml/2022/01/21/intro.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/INTROml/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/INTROml/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/INTROml/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/rhkrehtjd" target="_blank" title="rhkrehtjd"><svg class="svg-icon grey"><use xlink:href="/INTROml/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
